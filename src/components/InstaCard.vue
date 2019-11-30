@@ -1,0 +1,20 @@
+<template>
+  <div class="InstaCard">
+    <div class="card">
+      <div class="card-header">Naslov</div>
+      <div class="card-body">
+        <img src="@/assets/user.svg" />
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "InstaCard"
+};
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped lang="scss">
+</style>
